@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varsha_Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(mount.png.jpg);
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            flex: grid;
+            justify-content: space-around;
+            align-items: center;
+
+            height: 80px;
+            position: fixed;
+            top: 0;
+            width: 1200px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul li {
+            display: flex;
+            margin: 2px;
+            padding: 5px;
+            list-style: none;
+            align-items: center;
+            font-size: 25px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: burlywood;
+            font-size: 26px;
+        }
+
+        .left {
+            font-size: 30px;
+            font-weight: bolder;
+
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0px;
+            align-items: center;
+            height: 90vh;
+        }
+
+        .rightSection {
+            margin-top: 20px;
+            font-weight: 200px;
+            font-size: 3rem;
+            width: 40%;
+            color: black;
+        }
+
+        .leftSection {
+            margin-top: 20px;
+            margin-left: 5px;
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 500px;
+            display: flex;
+            flex: grid;
+            justify-content: space-between;
+
+        }
+
+
+
+        main hr {
+            border: 0;
+            background-color:rgb(206, 62, 72);
+            height: 2px;
+              margin:10px;
+            border-radius: 2px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .secondSection .box {
+            background: black;
+            width: 60vw;
+            height: 1px;
+            margin: 100px 100px;
+            display: flex;
+            flex: grid;
+            justify-content: space-between;
+        }
+
+        .secondSection .vertical {
+            height: 40px;
+            width: 1px;
+            background-color: black;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 100px;
+            position: relative;
+            top: -80px;
+            left: -50px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 0px;
+            width: 150px;
+            font-size: 30px;
+            color: black;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 30px;
+            color: black;
+            width: 200px;
+            font-size: 30px;
+
+        }
+
+        footer {
+            background-color: rgb(67, 69, 69);
+            height: 200px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 23px 122px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer ul li a:hover {
+            color: burlywood;
+            font-size: 25px;
+        }
+
+        footer ul {
+            list-style: none;
+            top: 60px;
+        }
+
+        .second {
+            font-size: 20px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .first {
+            text-align: left;
+        }
+
+        #webD {
+            top: -30px;
+        }
+        .btn{
+            padding:12px;
+            background:rgb(171, 129, 211);
+            color:white;
+            border:2px solid white;
+            border-radius:6px;
+            font-size: 20px;
+            cursor:pointer;
+        }
+        .btn a{
+            text-decoration: none;
+            color:white;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Varsha_Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Academics">Academics</a></li>
+                    <li><a href="#learn">Learnings</a></li>
+                    <li><a href="#last">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class='firstSection' id="Home">
+            <div class="leftSection">
+                <img src="abc.png" alt="web_dev_pic" height=400px width="400px">
+            </div>
+            <div class="rightSection">
+                <div> Hi,</div>
+                <div>My name is <span class='purple'>VARSHA </div></span>
+                <div>and I am a </div>
+                <div> <span id="element">Tech Enthusiast. </span></div>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> <a href="https://github.com/VarshaPandey24">Visit GitHub
+                    </a>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <hr id="rule">
+
+        <section class="secondSection" id="Academics">
+
+            <div class="leftSection">
+
+                <span class="text-gray">What I Have Done so far</span>
+                <h1> Academics</h1>
+
+                <div class="box">
+
+                    <div class="vertical">
+                        <img src="cbse.png" class="image-top">
+                        <div class="vertical-title">
+                            Class-10
+                        </div>
+                        <div class="vertical-desc">Grade-94%
+                            Year-2020
+                        </div>
+
+                    </div>
+                    <div class="vertical">
+                        <img src="cbse.png" class="image-top">
+                        <div class="vertical-title">
+                            Class-12
+                        </div>
+                        <div class="vertical-desc">Grade-95%
+                            Year-2022
+                        </div>
+
+                    </div>
+                    <div class="vertical">
+                        <img src="8209427.jpeg" class="image-top" height="80px" width="80px"
+                            style="border-radius: 10px">
+                        <div class="vertical-title">
+                            BTech CSE
+                        </div>
+                        <div class="vertical-desc">
+                            Year-2022-26
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <hr class="rule" id="line">
+
+        <section class="secondSection" id="learn">
+
+            <h1>Learnings</h1>
+
+            <div class="box">
+
+                <div class="vertical">
+                    <img src="webD.png" height="80px" width="50px" class="image-top">
+                    <div class="vertical-title" id="wedD">
+                        Learning Web Devlopment
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img src="DSA.webp" height="80px" width="50px" class="image-top" style="border-radius:70px">
+                    <div class="vertical-title" id="wedD">
+                        Learning DSA
+                    </div>
+                    
+                </div>
+                <div class="vertical">
+                    <img src="java.png" height="80px" width="50px" class="image-top" style="border-radius:70px">
+                    <div class="vertical-title" id="wedD">
+                        JAVA 4 🌟 HackerRank
+                    </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h1>Varsha_Portfolio</h1>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Academics">Academics</a></li>
+                    <li><a href="#learn">Learnings</a></li>
+                    <li><a href="#last">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/varsha-pandey-364552258"> LinkedIn</a></li>
+                    <li><a href="https://github.com/VarshaPandey24"> <i style="font-size:24px" class="fa"></i>GitHub</a>
+                    </li>
+                    <li><a href="https://www.hackerrank.com/profile/pandeyv6639">HackerRank</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights" id="last">
+            Copyright &#169; www.Varsha_Portfolio.com | All Rights Reserverd
+        </div>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Enginnering Student', 'Web Devloper', 'Java Learner'],
+                typeSpeed: 75,
+            });
+        </script>
+
+</body>
+
+</html>
